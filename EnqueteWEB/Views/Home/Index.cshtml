@@ -4,14 +4,17 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device=width, initial-sacale=1.0">
+        <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css">
         <title>EnqueteWEB!</title>
     </head>
     <body>
-        <h1>EnqueteWEB!</h1>
-        <h2>Você teria coragem de fazer uma viagem sem volta pra Marte?</h2>
-        <p>
-            <a asp-action="Responder">Responder Agora!</a>
-            <a asp-action="Resultado">Ver Resultados Parciais</a>
-        </p>
+        <div class="container">
+            <h1>EnqueteWEB!</h1>
+            <h2>Você teria coragem de fazer uma viagem sem volta pra Marte?</h2>
+            <p>
+                <a asp-action="Responder" class="btn btn-primary">Responder Agora!</a>
+                <a asp-action="Resultado" class="btn btn-primary">Ver Resultados Parciais</a>
+            </p>
+        </div>
     </body>
 </hhtml>
